@@ -1,0 +1,97 @@
+/* ----------body---------- */
+body
+{
+    /* background-image: url("https://alifei02.cfp.cn/creative/vcg/800/new/VCG211258127853.jpg"); */
+    /* background-color: rgb(39, 32, 32); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+/* ----------p 文本---------- */
+.p-node .p1
+{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 12px 8px  rgba(0, 0, 0, 24);
+}
+.p1:active
+{
+    transition-duration: 0.2s;
+    transform: translateX(3px) translateY(4px);
+    text-shadow: 4xp 9px 10px rgba(0, 0, 0, 25);
+}
+
+/* ----------input---------- */
+.input-node{
+    height: 100px;
+}
+#ib1
+{
+    font-size: 40px;
+    background-color: white;
+    border-radius: 24px;
+    border: 2px solid blue;
+    color: black;
+}
+#ib1:hover
+{
+    transition-duration: 0.3s;
+    transform: translateY(2px);
+    background-color: blue;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 24), 0 20px 50px 0 rgba(0, 0, 0, 24);
+}
+#ib1:active
+{
+    transform: scale(0.98);
+}
+#it1
+{
+    font-size: 40px;
+    border: 2px solid purple;
+}
+#it1:hover
+{
+    background-color: purple;
+    color: white;
+}
+
+/* ----------a 超链接---------- */
+.a-node
+{
+    font-size: 50px;
+    color: rgb(223, 220, 87);
+}
+.a1:hover
+{
+    background-color: green;
+}
+.a1:active
+{
+    background-color: rgb(71, 37, 110);
+}
+
+/* ----------button 按钮---------- */
+.bts
+{
+    font-size: 50px;  /* 文字大小 */
+    padding: 20px 60px;  /* 大小 */
+    background-color: white;  /* 背景颜色 */
+    color: black;  /* 文字颜色 */
+    border-radius: 24px;  /* 圆角 */
+    border: 3px solid green;
+}
+.bts:hover
+{
+    transition-duration: 0.3s;  /* 反应时间 */
+    transform: translateY(3px);
+    background-color: green;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 24), 0 17px 50px 0 rgba(0, 0, 0, 19);
+}
+.bts:active
+{
+    background-color: rgb(71, 37, 110);
+    transform: scale(0.98);
+}
